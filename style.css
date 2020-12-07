@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin-top: 20%;
+}
+
+#display {
+        width: 100%;
+        font-size: 100px;
+        text-align: center;
+        margin: 0px auto;
+        font-family: 'Orbitron', sans-serif;
+        color: #2feaf5;
+        height: 20%;
+}
+
+.buttons {
+    text-align: center;
+}
+
+
+#startStop {
+    font-size: 40px;
+    border-radius: 10%;
+    color: purple;
+    background-color: #66ff00;
+    border-color: black;
+    margin-right: 30px;
+    font-family: 'Orbitron', sans-serif;
+
+    cursor: pointer;
+
+}
+
+#reset {
+    font-size: 40px;
+    border-radius: 10%;
+    color: purple;
+    background-color: #66ff00;
+    border-color: black;
+    margin-left: 40px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+
+}
